@@ -50,7 +50,28 @@ footer {
     padding: 10px 20px;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: start;
+}
+
+footer #instagrams {
+    display: grid;
+    grid-template-columns: 20px 50px;
+    gap: 3px;
+    width: 20%;
+}
+
+footer #instagrams img {
+    width: 18px;
+}
+
+footer #instagrams a {
+    text-decoration: none;
+    color: white;
+}
+
+#body-login {
+    height: auto;
 }
 
 form {
@@ -86,8 +107,4 @@ button {
     display: flex;
     justify-content: center;
     padding-top: 8px;
-}
-
-#body-login {
-    height: auto;
 }
