@@ -1,0 +1,93 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav {
+    background-color: black;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-links ul {
+    margin-right: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav .nav-login a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.secao {
+    border: solid 1px rgb(114, 149, 180);
+    height: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    padding: 10px 20px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+form {
+    background-color: gainsboro;
+    border-radius: 4px;
+    width: 320px;
+    margin: auto;
+    margin-top: 200px;
+    padding: 20px;
+}   
+
+input {
+    width: 60%;
+    padding: 6px;
+    margin-bottom: 8px;
+    border: solid 2px grey;
+    border-radius: 4px;
+}
+
+input[type=radio] {
+    width: auto;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    padding: 4px;
+}
+
+#div-botao {
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+#body-login {
+    height: auto;
+}

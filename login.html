@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Página de Login</title>
+</head>
+<body id="body-login">
+    <form>
+        <div>
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" placeholder="Digite seu nome" name="username" required>
+        </div>
+        <div>
+            <label for="password">Senha:</label>
+            <input type="password" id="password" placeholder="Digite sua senha" name="password" required>
+        </div>
+        <div>
+            <label for="preference">Preferência de notificações:</label>
+            <div>
+                <input type="radio" name="preference" id="notifica-email" value="email">
+                <label>Email</label>
+                <input type="radio" name="preference" id="notifica-sms" value="sms">
+                <label>SMS</label>
+            </div>
+        </div>
+        <div id="div-botao">
+            <button>Entrar</button>
+        </div>
+    </form>
+</body>
+</html>
