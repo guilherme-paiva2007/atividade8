@@ -198,7 +198,8 @@ button {
 }
 
 #section-pesquisa form {
-    margin-top: 40px
+    margin-top: 40px;
+    padding: 40px 20px
 }
 
 #section-pesquisa div {
@@ -207,7 +208,7 @@ button {
 }
 
 #section-pesquisa input[type=text] {
-    width: 100%;
+    width: 95%;
 }
 
 #section-pesquisa select {
@@ -220,4 +221,10 @@ button {
     margin: 0;
     margin-top: 16px;
     margin-bottom: 4px
+}
+
+#section-pesquisa #div-submit {
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
