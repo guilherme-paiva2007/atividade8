@@ -49,12 +49,29 @@ nav .nav-login a {
 
 .secao {
     height: 100%;
+    padding: 25px;
+    color: white;
+    background-color: black;
+    border-bottom: 8px rgba(63, 63, 63, 0.589) solid;
 }
 
 .div-bloco {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 25px;
+    gap: 25px;
+}
+
+.div-bloco img {
+    width: 80%;
+    margin: 0 auto;
+    transition: 0.3s;
+    border: rgba(255, 255, 255, 0.259) solid 4px;
+    border-radius: 4px;
+}
+
+.div-bloco img:hover {
+    transition: 0.3s;
+    opacity: 0.5;
 }
 
 #id-secao1 {
@@ -78,7 +95,7 @@ nav .nav-login a {
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(37, 37, 37);
     color: white;
     position: fixed;
     padding: 15px 20px;
