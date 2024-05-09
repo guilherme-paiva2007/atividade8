@@ -180,3 +180,44 @@ button {
     justify-content: center;
     padding-top: 8px;
 }
+
+#body-pesquisa {
+    background-color: rgba(128, 128, 128, 0.375);
+}
+
+#section-pesquisa {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#section-pesquisa img {
+    margin: 20px;
+}
+
+#section-pesquisa form {
+    margin-top: 40px
+}
+
+#section-pesquisa div {
+    display: flex;
+    flex-direction: column;
+}
+
+#section-pesquisa input[type=text] {
+    width: 100%;
+}
+
+#section-pesquisa select {
+    padding: 4px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+#section-pesquisa label {
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 4px
+}
