@@ -10,6 +10,7 @@
     <nav>
         <div class="nav-links">
             <img id="img-logo" src="./img/logo_newstreet-shop.png" alt="Logo StreetWear Shop">
+            <a href="./index.html">Home</a>
         </div>
         <div class="nav-login">
             <a href="./pesquisa.html">Pesquisa</a>
@@ -17,17 +18,19 @@
         </div>
     </nav>
     <section id="section-pesquisa">
-        <img src="./img/cropped1.jpg" alt="Cropped">
+        <div class="bloco-img">
+            <img src="./img/cropped1.jpg" alt="Cropped">
+        </div>
         <form action="./index.html">
             <h1>PESQUISA</h1>
             <p>Responda a pesquisa para implementação de croppeds na loja.</p>
             <div>
                 <label for="cores">Cores de preferência</label>
-                <input type="text" name="cores">
+                <input type="text" name="cores" required>
             </div>
             <div>
                 <label for="tamanhos">Tamanhos</label>
-                <select name="tamanhos">
+                <select name="tamanhos" required>
                     <option value="grande">Grande</option>
                     <option value="medio">Médio</option>
                     <option value="pequeno">Pequeno</option>
@@ -35,13 +38,15 @@
             </div>
             <div>
                 <label for="tecidos">Tecidos de preferência</label>
-                <input type="text" name="tecidos">
+                <input type="text" name="tecidos" required>
             </div>
             <div id="div-submit">
                 <input type="submit">
             </div>
         </form>
-        <img src="./img/cropped2.jpg" alt="Cropped">
+        <div class="bloco-img">
+            <img src="./img/cropped2.jpg" alt="Cropped">
+        </div>
     </section>
     <footer>
         <div id="instagrams">
