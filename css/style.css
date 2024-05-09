@@ -61,8 +61,13 @@ nav .nav-login a {
     gap: 25px;
 }
 
+.div-bloco p {
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
 .div-bloco img {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     transition: 0.3s;
     border: rgba(255, 255, 255, 0.259) solid 4px;
@@ -124,6 +129,7 @@ footer #instagrams a {
 
 #body-login {
     height: auto;
+    background-color: black;
 }
 
 #section-forms {
@@ -134,17 +140,21 @@ footer #instagrams a {
 }
 
 form {
-    background-color: gainsboro;
+    background-color: rgba(255, 255, 255, 0.76);
     border-radius: 4px;
     width: 320px;
     margin: auto;
-    padding: 20px;
-}   
+    padding: 60px 20px;
+}
+
+form h1 {
+    text-align: center;
+}
 
 input {
     width: 60%;
     padding: 6px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     border: solid 2px grey;
     border-radius: 4px;
 }
@@ -155,6 +165,10 @@ input[type=radio] {
 
 input:focus {
     outline: none;
+}
+
+label {
+    margin-bottom: 16px
 }
 
 button {
