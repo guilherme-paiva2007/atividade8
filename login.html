@@ -7,27 +7,37 @@
     <title>Página de Login</title>
 </head>
 <body id="body-login">
-    <form>
-        <div>
-            <label for="username">Usuário:</label>
-            <input type="text" id="username" placeholder="Digite seu nome" name="username" required>
-        </div>
-        <div>
-            <label for="password">Senha:</label>
-            <input type="password" id="password" placeholder="Digite sua senha" name="password" required>
-        </div>
-        <div>
-            <label for="preference">Preferência de notificações:</label>
+    <section id="section-forms">
+        <form action="./index.html">
             <div>
-                <input type="radio" name="preference" id="notifica-email" value="email" required>
-                <label>Email</label>
-                <input type="radio" name="preference" id="notifica-sms" value="sms" required>
-                <label>SMS</label>
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" placeholder="Digite seu nome" name="username" required>
             </div>
+            <div>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" placeholder="Digite sua senha" name="password" required>
+            </div>
+            <div>
+                <label for="preference">Preferência de notificações:</label>
+                <div>
+                    <input type="radio" name="preference" id="notifica-email" value="email" required>
+                    <label>Email</label>
+                    <input type="radio" name="preference" id="notifica-sms" value="sms" required>
+                    <label>SMS</label>
+                </div>
+            </div>
+            <div id="div-botao">
+                <button>Entrar</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div id="instagrams">
+            <img src="./img/instagram_icon.png" alt="Icone Instagram">
+            <a href="https://instagram.com/_jul4x.ia/">@_jul4x.ia</a>
+            <img src="./img/instagram_icon.png" alt="Icone Instagram">
+            <a href="https://instagram.com/l1nn_l/">@l1nn_l</a>
         </div>
-        <div id="div-botao">
-            <button>Entrar</button>
-        </div>
-    </form>
+    </footer>
 </body>
 </html>
