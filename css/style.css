@@ -10,10 +10,15 @@ html, body {
 
 nav {
     background-color: black;
-    padding: 5px;
+    padding: 5px 25px;
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-links {
+    display: flex;
     align-items: center;
 }
 
@@ -38,9 +43,18 @@ nav .nav-login a {
     padding: 15px;
 }
 
+#img-logo {
+    height: 80px;
+}
+
 .secao {
-    border: solid 1px rgb(114, 149, 180);
     height: 100%;
+}
+
+.div-bloco {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 25px;
 }
 
 #id-secao1 {
@@ -48,10 +62,19 @@ nav .nav-login a {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: url('../img/fundo-secao1.png') no-repeat center fixed;
+    background-size: cover;
+    color: white;
 }
 
 #id-secao1 h1 {
     font-size: 50px;
+}
+
+#id-secao1 p {
+    width: 70%;
+    margin-bottom: 150px;
+    text-align: center;
 }
 
 footer {
